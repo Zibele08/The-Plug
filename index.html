@@ -1,0 +1,143 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+        <body>
+            <header>
+                <link rel="stylesheet" href="style.css">
+                <div class="container">
+                    <div class="header-content">
+                        <div class="logo"> The Plug</div>
+                        <nav>
+                            <ul class="nav-links">
+                                <li><a href="#jobs">Jobs</a></li>
+                                <li><a href="#companies">Companies</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </nav>
+                           
+                        </ul>
+                    </div>
+                </div>
+            </header>
+
+            <section class="hero">
+                <div class="container">
+                    <h1>Get Plugged In To Your Next Opportunity</h1>
+                    <p>Discover thousands of tech jobs from startups to Fortune 500 companies</p>
+                    <form class="search-form">
+                        <input type="text" class="search-input" placeholder="Job title, keywords...">
+                        <input type="text" class="search-input" placeholder="City, state, or remote">
+                        <button type="submit" class="search-btn">Find Jobss</button>
+                    </form>
+                </div>
+            </section>
+
+            <!-- Job Categories-->
+             <section class="Categories--">
+                <div class="container">
+                    <h2 class="section-title">Browse Jobs by Category</h2>
+                    <div class="Category-grid">
+                        <div class="category-card">
+                            <div class="category-icon">💻</div>
+                            <h3>Software Development</h3>
+                            <p>1, 234 jobs available</p>
+                        </div>
+                         <div class="category-card">
+                            <div class="category-icon">🎨</div>
+                            <h3>Design</h3>
+                            <p>567 jobs available</p>
+                        </div>
+                        <div class="category-card">
+                            <div class="category-icon">📊</div>
+                            <h3>Data Science</h3>
+                            <p>890 jobs available</p>
+                        </div>
+                        <div class="category-card">
+                            <div class="category-icon">📱</div>
+                            <h3>Mobile Development</h3>
+                            <p>432 jobs available</p>
+                        </div>
+                    </div>
+                </div>
+             </section>
+              <!-- Job Listings -->
+    <section class="jobs" id="jobs">
+        <div class="container">
+            <h2 class="section-title">Latest Job Opportunities</h2>
+            
+            <div class="job-card">
+                <div class="job-header">
+                    <div>
+                        <h3 class="job-title">Frontend Developer</h3>
+                        <p class="company-name">TechCorp Inc.</p>
+                    </div>
+                    <button class="apply-btn">Apply Now</button>
+                </div>
+                <div class="job-details">
+                    <span class="job-tag">Remote</span>
+                    <span class="job-tag">Full-time</span>
+                    <span class="job-tag">R80k - R120k</span>
+                </div>
+                <p>We're looking for a skilled Frontend Developer to join our team and build amazing user experiences...</p>
+            </div>
+
+            <div class="job-card">
+                <div class="job-header">
+                    <div>
+                        <h3 class="job-title">UX Designer</h3>
+                        <p class="company-name">DesignStudio</p>
+                    </div>
+                    <button class="apply-btn">Apply Now</button>
+                </div>
+                <div class="job-details">
+                    <span class="job-tag">San Francisco, CA</span>
+                    <span class="job-tag">Full-time</span>
+                    <span class="job-tag">R90k - R130k</span>
+                </div>
+                <p>Join our creative team to design innovative digital products that delight users worldwide...</p>
+            </div>
+
+            <div class="job-card">
+                <div class="job-header">
+                    <div>
+                        <h3 class="job-title">Backend Engineer</h3>
+                        <p class="company-name">CloudTech Solutions</p>
+                    </div>
+                    <button class="apply-btn">Apply Now</button>
+                </div>
+                <div class="job-details">
+                    <span class="job-tag">Remote</span>
+                    <span class="job-tag">Full-time</span>
+                    <span class="job-tag">R100k - R150k</span>
+                </div>
+                <p>Build scalable backend systems and APIs that power our cloud-based platform...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 The Plug. Connecting talent with opportunity.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Simple search functionality
+        document.querySelector('.search-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Search functionality would be implemented here!');
+        });
+
+        // Apply button functionality
+        document.querySelectorAll('.apply-btn').forEach(button => {
+            button.addEventListener('click', function() {
+                alert('Application process would start here!');
+            });
+        });
+    </script>
+</body>
+</html>
